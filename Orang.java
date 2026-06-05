@@ -64,4 +64,8 @@ class Mahasiswa extends Orang {
         this.nim = nim;
         this.mataKuliahDiambil = new ArrayList<>();
     }
+
+    public void ambilMataKuliah(MataKuliah mataKuliah) {
+        mataKuliahDiambil.add(mataKuliah);
+    }
 }
