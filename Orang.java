@@ -14,3 +14,7 @@ abstract class Orang {
         return nama;
     }
 }
+abstract class Orang {
+    // ... kode sebelumnya ...
+    public abstract void tampilkanPeran();
+}
