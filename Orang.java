@@ -84,3 +84,10 @@ class Mahasiswa extends Orang {
         }
     }
 }
+    public static void main(String[] args) {
+        MataKuliah pbo = new MataKuliah("IF204", "Pemrograman Berorientasi Objek", 3);
+        MataKuliah web = new MataKuliah("IF305", "Pemrograman Web", 3);
+        MataKuliah strukturData = new MataKuliah("IF201", "Struktur Data", 3);
+    }
+    
+
