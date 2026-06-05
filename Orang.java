@@ -2,9 +2,6 @@ import java.util.ArrayList;
 
 abstract class Orang {
     private String nama;
-}
-abstract class Orang {
-    private String nama;
 
     public Orang(String nama) {
         this.nama = nama;
@@ -13,9 +10,7 @@ abstract class Orang {
     public String getNama() {
         return nama;
     }
-}
-abstract class Orang {
-    // ... kode sebelumnya ...
+
     public abstract void tampilkanPeran();
 }
 class MataKuliah {
@@ -27,5 +22,8 @@ class MataKuliah {
         this.kode = kode;
         this.nama = nama;
         this.sks = sks;
+    }
+    public String getInfo() {
+        return kode + " - " + nama + " (" + sks + " SKS)";
     }
 }
